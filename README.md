@@ -7,10 +7,8 @@ Crony is a pal for mobile app testers and developers. Crony brings them closer t
 # Record
 1. On-demand or always
 1. Screenshots and videos
-1. Annotate screnshots (In Progress)
 1. Network Calls, View, Spinners
 1. Logs
-1. Crashes
 1. Vitals (CPU, MEM, Disk, Battery)
 1. On-device view of the recordings
 
