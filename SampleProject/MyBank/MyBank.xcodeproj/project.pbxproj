@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		259041B92259125D007B5743 /* libCrony.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 259041B72259125D007B5743 /* libCrony.a */; };
-		259041BA2259125D007B5743 /* libCronySim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 259041B82259125D007B5743 /* libCronySim.a */; };
+		2537993A228899C9008130B4 /* libCrony.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25379936228899C9008130B4 /* libCrony.a */; };
+		2537993B228899C9008130B4 /* libCronySim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25379937228899C9008130B4 /* libCronySim.a */; };
 		25AF5F6921C445F400A87A24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AF5F2E21C42A3F00A87A24 /* ViewController.m */; };
 		25AF5F6A21C445F400A87A24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AF5F3921C42A4000A87A24 /* main.m */; };
 		25AF5F6B21C445F400A87A24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AF5F2B21C42A3F00A87A24 /* AppDelegate.m */; };
@@ -33,9 +33,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		259041AF22591114007B5743 /* BSCrony.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCrony.h; sourceTree = "<group>"; };
-		259041B72259125D007B5743 /* libCrony.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCrony.a; sourceTree = "<group>"; };
-		259041B82259125D007B5743 /* libCronySim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCronySim.a; sourceTree = "<group>"; };
+		25379936228899C9008130B4 /* libCrony.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCrony.a; sourceTree = "<group>"; };
+		25379937228899C9008130B4 /* libCronySim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCronySim.a; sourceTree = "<group>"; };
+		25379939228899C9008130B4 /* BSCrony.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCrony.h; sourceTree = "<group>"; };
 		25AF5F2A21C42A3F00A87A24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25AF5F2B21C42A3F00A87A24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		25AF5F2D21C42A3F00A87A24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -54,8 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				259041B92259125D007B5743 /* libCrony.a in Frameworks */,
-				259041BA2259125D007B5743 /* libCronySim.a in Frameworks */,
+				2537993A228899C9008130B4 /* libCrony.a in Frameworks */,
+				2537993B228899C9008130B4 /* libCronySim.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +79,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		25379935228899C9008130B4 /* CronyLib */ = {
+			isa = PBXGroup;
+			children = (
+				25379936228899C9008130B4 /* libCrony.a */,
+				25379937228899C9008130B4 /* libCronySim.a */,
+				25379938228899C9008130B4 /* headers */,
+			);
+			path = CronyLib;
+			sourceTree = SOURCE_ROOT;
+		};
+		25379938228899C9008130B4 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				25379939228899C9008130B4 /* BSCrony.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
 		258E79A621BC37A20074C025 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,28 +104,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		259041AA22591114007B5743 /* Crony */ = {
-			isa = PBXGroup;
-			children = (
-				259041B72259125D007B5743 /* libCrony.a */,
-				259041B82259125D007B5743 /* libCronySim.a */,
-				259041AE22591114007B5743 /* headers */,
-			);
-			path = Crony;
-			sourceTree = "<group>";
-		};
-		259041AE22591114007B5743 /* headers */ = {
-			isa = PBXGroup;
-			children = (
-				259041AF22591114007B5743 /* BSCrony.h */,
-			);
-			path = headers;
-			sourceTree = "<group>";
-		};
 		25AF5F2921C42A3F00A87A24 /* MyBank */ = {
 			isa = PBXGroup;
 			children = (
-				259041AA22591114007B5743 /* Crony */,
+				25379935228899C9008130B4 /* CronyLib */,
 				25AF5F3E21C42A7600A87A24 /* LinkKit.framework */,
 				25AF5F2A21C42A3F00A87A24 /* AppDelegate.h */,
 				25AF5F2B21C42A3F00A87A24 /* AppDelegate.m */,
@@ -334,7 +334,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
-				DEVELOPMENT_TEAM = U96363L4E2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -346,7 +346,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MyBank/Crony";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/MyBank/Crony",
+					"$(PROJECT_DIR)/CronyLib",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bytesized.MyBank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -362,7 +365,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
-				DEVELOPMENT_TEAM = U96363L4E2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -374,7 +377,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MyBank/Crony";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/MyBank/Crony",
+					"$(PROJECT_DIR)/CronyLib",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bytesized.MyBank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
