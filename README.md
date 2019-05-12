@@ -7,7 +7,7 @@ Crony is a pal for mobile app testers and developers. Crony brings them closer t
 # Record
 1. On-demand or always
 1. Screenshots and videos
-1. Annotate screnshots
+1. Annotate screnshots (In Progress)
 1. Network Calls, View, Spinners
 1. Logs
 1. Crashes
@@ -23,15 +23,14 @@ Crony is a pal for mobile app testers and developers. Crony brings them closer t
 
 ### Usage
 ## XCode Intregration
-1. Unzip Crony.zip file
-2. Drag Crony folder and drop it into your XCode project
-3. Select "Copy items if needed" and "Create groups" options
-4. Select the targets and click Finish
-5. Go to BUild Settings and add -ObjC as additional linker flag
-6. Open your AppDelehgate.m file include BSCrony.h
-7. in didFinishLaunchingWithOptions, add the following line;
+1. Drag Crony folder and drop it into your XCode project
+2. Select "Copy items if needed" and "Create groups" options
+3. Select the targets and click Finish
+4. Go to Build Settings and add -ObjC as additional linker flag
+5. Open your AppDelehgate.m file include BSCrony.h
+6. in didFinishLaunchingWithOptions, add the following line;
    1. [BSCrony initializeCrony:nil];
-8. Compile and run the app
+7. Compile and run the app
 
 
 
