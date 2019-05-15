@@ -2,7 +2,7 @@
 #### Record. Share. Fix.
 
 # What is Crony?
-Crony is a pal for mobile app testers and developers. Crony brings them closer together to cpature and share information in real-time.
+Crony is a pal for mobile app testers and developers. Crony brings them closer together to capture and share information in real-time.
 
 # Record
 1. On-demand or always
