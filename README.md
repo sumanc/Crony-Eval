@@ -36,34 +36,15 @@ When your app is running, just swipe from left edge of your device or simulator 
 # Demo Video and Images
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=_P_9GB8d0AA" target="_blank"><img src="http://img.youtube.com/vi/_P_9GB8d0AA/0.jpg" alt="Crony Demo" width="240" height="180" border="10" /></a>
 
-.row {
-  display: flex;
-}
+<img src="Assets/views.PNG" width="240" alt="Views"> <img src="Assets/network-calls.PNG" width="240" alt="Network Calls">
 
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
-
-<div class="row">
-  <div class="column">
-   <img src="Assets/views.PNG" width="240" alt="Views">
-   </div>
-   <div class="column">
-   <img src="Assets/network-calls.PNG" width="240" alt="Network Calls">
-   </div>
-   <div class="column">
    <img src="Assets/spinners.PNG" width="240" alt="Spinners">
-   </div>
-   <div class="column">
+
    <img src="Assets/logs.PNG" width="240" alt="Logs">
-   </div>
-   <div class="column">
+
    <img src="Assets/performance.PNG" width="240" alt="Performance">
-   </div>
-   <div class="column">
+
    <img src="Assets/sharing.PNG" width="240" alt="Sharing">
-   </div>
-</div>
+
 
 
