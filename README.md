@@ -27,7 +27,9 @@ Crony is a pal for mobile app testers and developers. Crony brings them closer t
 4. Go to Build Settings and add -ObjC as additional linker flag
 5. Open your AppDelehgate.m file include BSCrony.h
 6. in didFinishLaunchingWithOptions, add the following line;
-   1. [BSCrony initializeCrony:nil];
+```
+   [BSCrony initializeCrony:nil];
+```
 7. Compile and run the app
 
 When your app is running, just swipe from left edge of your device or simulator to bring Crony view.
