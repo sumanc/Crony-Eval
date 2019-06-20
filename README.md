@@ -35,6 +35,6 @@ When your app is running, just swipe from left edge of your device or simulator 
 
 # Demo Video and Images
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=_P_9GB8d0AA
-" target="_blank"><img src="http://img.youtube.com/vi/_P_9GB8d0AA/0.jpg" 
+"target="_blank"><img src="http://img.youtube.com/vi/_P_9GB8d0AA/0.jpg" 
 alt="Crony Demo" width="240" height="180" border="10" /></a>
 
