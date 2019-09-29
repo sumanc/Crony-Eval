@@ -14,10 +14,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     BSCronySettings *cronySettings = [BSCronySettings defaultSettings];
-//    cronySettings.slackAuthToken = @"xoxp-....";
 //    cronySettings.jiraAuthToken = @"...";
 //    cronySettings.jiraHost = @"...";
-//    [BSCrony initializeCrony:cronySettings];
     [BSCrony initializeCrony:cronySettings];
     #if USE_CUSTOM_CONFIG
         [self setupPlaidLinkWithCustomConfiguration];
