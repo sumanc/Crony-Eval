@@ -7,13 +7,14 @@ Crony is a pal for mobile app testers and developers. Crony brings them closer t
 # Record
 1. On-demand or always
 1. Screenshots and videos
+1. Voice memos
 1. Network Calls, Views, Spinners
 1. Logs
 1. Vitals (CPU, MEM, Disk, Battery)
 1. On-device view of the recordings
 
 # Share
-1. Share the recordings right from the device using the apps like messenger, slack etc.
+1. Share full or partial recordings right from the device using the apps like messenger, slack etc.
 1. Send them to content management systems (sharepoint), bugtracking systems (Jira etc.) from the device
 
 # Fix
