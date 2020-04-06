@@ -8,9 +8,9 @@ Crony is a pal for mobile app testers and developers. Crony brings them closer t
 1. On-demand or always
 1. Screenshots and videos
 1. Voice memos
-1. Network Calls, Views, Spinners
-1. Logs
-1. Vitals (CPU, MEM, Disk, Battery)
+1. Network Calls, Views, Spinners, and user gestures
+1. Log messages
+1. Performance (CPU, MEM, Disk, and Battery)
 1. On-device view of the recordings
 
 # Share
