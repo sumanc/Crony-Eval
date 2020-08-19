@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2510E64D24EDDA3D007A3302 /* BSCJSInterceptor.js in Resources */ = {isa = PBXBuildFile; fileRef = 2510E64C24EDDA3D007A3302 /* BSCJSInterceptor.js */; };
 		2537993A228899C9008130B4 /* libCrony.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25379936228899C9008130B4 /* libCrony.a */; };
-		2537993B228899C9008130B4 /* libCronySim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25379937228899C9008130B4 /* libCronySim.a */; };
 		25AF5F6921C445F400A87A24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AF5F2E21C42A3F00A87A24 /* ViewController.m */; };
 		25AF5F6A21C445F400A87A24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AF5F3921C42A4000A87A24 /* main.m */; };
 		25AF5F6B21C445F400A87A24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AF5F2B21C42A3F00A87A24 /* AppDelegate.m */; };
@@ -33,8 +33,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2510E64C24EDDA3D007A3302 /* BSCJSInterceptor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = BSCJSInterceptor.js; sourceTree = "<group>"; };
 		25379936228899C9008130B4 /* libCrony.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCrony.a; sourceTree = "<group>"; };
-		25379937228899C9008130B4 /* libCronySim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCronySim.a; sourceTree = "<group>"; };
 		25379939228899C9008130B4 /* BSCrony.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCrony.h; sourceTree = "<group>"; };
 		25AF5F2A21C42A3F00A87A24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25AF5F2B21C42A3F00A87A24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,13 +55,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				2537993A228899C9008130B4 /* libCrony.a in Frameworks */,
-				2537993B228899C9008130B4 /* libCronySim.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2510E64B24EDDA3D007A3302 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				2510E64C24EDDA3D007A3302 /* BSCJSInterceptor.js */,
+			);
+			name = js;
+			path = CronyLib/js;
+			sourceTree = SOURCE_ROOT;
+		};
 		2518B7E621B1AF3B00F0832E = {
 			isa = PBXGroup;
 			children = (
@@ -82,8 +90,8 @@
 		25379935228899C9008130B4 /* CronyLib */ = {
 			isa = PBXGroup;
 			children = (
+				2510E64B24EDDA3D007A3302 /* js */,
 				25379936228899C9008130B4 /* libCrony.a */,
-				25379937228899C9008130B4 /* libCronySim.a */,
 				25379938228899C9008130B4 /* headers */,
 			);
 			path = CronyLib;
@@ -177,6 +185,7 @@
 			files = (
 				25AF5F6F21C445F400A87A24 /* LaunchScreen.storyboard in Resources */,
 				25AF5F7021C445F400A87A24 /* Assets.xcassets in Resources */,
+				2510E64D24EDDA3D007A3302 /* BSCJSInterceptor.js in Resources */,
 				25AF5F7121C445F400A87A24 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,7 +343,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = U96363L4E2;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -365,7 +374,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = U96363L4E2;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

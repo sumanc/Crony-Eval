@@ -33,7 +33,7 @@
 @interface BSCrony : NSObject
 
 + (void)initializeCrony:(BSCronySettings *)cronySettings;
-+ (void)startRecording;
++ (BOOL)startRecording;
 + (void)stopRecording;
 + (BOOL)isRecording;
 + (BSCronySettings *)currentSettings;

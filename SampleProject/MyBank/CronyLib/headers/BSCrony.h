@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface BSCronySettings : NSObject
 
 @property (atomic, assign) BOOL onStartup;  //YES
 @property (atomic, assign) BOOL urlSession; //YES
+@property (atomic, assign) BOOL wkWebView; //YES
 @property (atomic, assign) BOOL screenshots;    //NO - NOT SUPPORTED YET
 @property (atomic, assign) BOOL video;  //YES
 @property (atomic, assign) BOOL viewLoads;  //YES
@@ -21,7 +23,6 @@
 @property (atomic, assign) CGFloat viewLoadThreshold;   //0.5 sec
 
 @property (atomic, retain) NSString *slackAuthToken;    //Use your Slack auth token to integrate Crony with your Slack channels
-
 @property (atomic, retain) NSString *jiraAuthToken; //Use your Jira auth token to automatically create Jira tickets
 @property (atomic, retain) NSString *jiraHost;      //Your Jira host URL. For ex: https://crony-us.atlassian.net
 
@@ -32,7 +33,7 @@
 @interface BSCrony : NSObject
 
 + (void)initializeCrony:(BSCronySettings *)cronySettings;
-+ (void)startRecording;
++ (BOOL)startRecording;
 + (void)stopRecording;
 + (BOOL)isRecording;
 + (BSCronySettings *)currentSettings;
