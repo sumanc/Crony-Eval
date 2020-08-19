@@ -35,7 +35,6 @@ Crony is a pal for mobile app testers and developers. Crony brings them closer t
 
 When your app is running, just swipe from left edge of your device or simulator to bring Crony view.
 
-
 # Demo Video and Images
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=_P_9GB8d0AA" target="_blank"><img src="Assets/crony-demo-thumbnail.PNG" alt="Crony Demo" width="240" border="10" /></a>
 
@@ -44,5 +43,8 @@ When your app is running, just swipe from left edge of your device or simulator 
 
 <img src="Assets/logs.PNG" width="240" alt="Logs">    <img src="Assets/performance.PNG" width="240" alt="Performance">    <img src="Assets/sharing.PNG" width="240" alt="Sharing">
 
+
+# Contact 
+[Suman Cherukuri](mailto:suman@crony.us?subject=[GitHub]%20Crony)
 
 
