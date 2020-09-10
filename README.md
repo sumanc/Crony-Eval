@@ -12,6 +12,7 @@ Crony is a pal for mobile app testers and developers. Crony brings them closer t
 1. Log messages
 1. Performance (CPU, MEM, Disk, and Battery)
 1. On-device view of the recordings
+1. Annotations
 
 # Share
 1. Share full or partial recordings right from the device using the apps like messenger, slack etc.
