@@ -1,4 +1,4 @@
-# Crony
+# Crony 🐕
 #### Record. Share. Fix.
 
 # What is Crony?
