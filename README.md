@@ -33,6 +33,9 @@ Crony is a pal for mobile app testers and developers. Crony brings them closer t
    1. [BSCrony initializeCrony:nil];
 8. Compile and run the app
 
+# Contact
+https://crony.us 
+success@crony.us
 
 
 
