@@ -9,35 +9,50 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-extern NSString *const CRONY_VERSION;
+extern NSString * _Nonnull const CRONY_VERSION;
+
+typedef NS_ENUM(NSInteger, BSCronyMode) {
+    BSCronyModeUnknown, // Display a dialog with Record, Replay, and Normal options
+    BSCronyModeRecord,  // Crony records a session
+    BSCronyModeReplay,  // Crony replays a previously recorded session
+    BSCronyModeNormal   // App runs normally
+};
 
 @interface BSCronySettings : NSObject
 
-@property (atomic, assign) BOOL onStartup;  //YES
-@property (atomic, assign) BOOL urlSession; //YES
-@property (atomic, assign) BOOL wkWebView; //YES
-@property (atomic, assign) BOOL screenshots;    //NO - NOT SUPPORTED YET
-@property (atomic, assign) BOOL video;  //YES
-@property (atomic, assign) BOOL viewLoads;  //YES
-@property (atomic, assign) BOOL nsLog;  //YES
-@property (atomic, assign) CGFloat networkCallThreshold;    //2 secs
-@property (atomic, assign) CGFloat aiThreshold; //1 sec
-@property (atomic, assign) CGFloat viewLoadThreshold;   //0.5 sec
-@property (atomic, retain) NSString *slackAuthToken;    //Use your Slack auth token to integrate Crony with your Slack channels
-@property (atomic, retain) NSString *jiraAuthToken; //Use your Jira auth token to automatically create Jira tickets
-@property (atomic, retain) NSString *jiraHost;      //Your Jira host URL. For ex: https://crony-us.atlassian.net
+@property (atomic, assign) BOOL onStartup;                  // YES
+@property (atomic, assign) BOOL urlSession;                 // YES
+@property (atomic, assign) BOOL wkWebView;                  // YES
+@property (atomic, assign) BOOL screenshots;                // YES
+@property (atomic, assign) BOOL video;                      // YES
+@property (atomic, assign) BOOL viewLoads;                  // YES
+@property (atomic, assign) BOOL nsLog;                      // YES
+@property (atomic, assign) CGFloat networkCallThreshold;    // 2 secs
+@property (atomic, assign) CGFloat aiThreshold;             // 1 sec
+@property (atomic, assign) CGFloat viewLoadThreshold;       // 0.5 sec
+@property (atomic, retain) NSString * _Nullable slackAuthToken;        // Use your Slack auth token to integrate Crony with your Slack channels
+@property (atomic, retain) NSString * _Nullable jiraAuthToken;         // Use your Jira auth token to automatically create Jira tickets
+@property (atomic, retain) NSString * _Nullable jiraHost;              // Your Jira host URL. For ex: https://crony-us.atlassian.net
 
-+ (BSCronySettings *)defaultSettings;
++ (BSCronySettings *_Nonnull)defaultSettings;
 
 @end
 
 @interface BSCrony : NSObject
 
-+ (void)initializeCrony:(BSCronySettings *)cronySettings;
++ (BSCronySettings *_Nullable)currentSettings;
++ (void)setSettings:(BSCronySettings * _Nullable)cronySettings;
+
++ (void)initializeCrony:(BSCronyMode)cronyMode sessionId:(NSString * _Nullable)sessionId;
++ (BSCronyMode)cronyMode;
+
 + (BOOL)startRecording;
 + (void)stopRecording;
 + (BOOL)isRecording;
-+ (BSCronySettings *)currentSettings;
-+ (void)setSettings:(BSCronySettings *)cronySettings;
+
++ (BOOL)startReplaying:(NSString * _Nullable)sessionId;
++ (void)stopReplaying;
++ (BOOL)isReplaying;
++ (NSString *)replayingSessionId;
 
 @end
