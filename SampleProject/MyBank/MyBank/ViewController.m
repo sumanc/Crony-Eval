@@ -11,6 +11,7 @@
 
 #import "ViewController.h"
 
+#import "BSCrony.h"
     
 // <!-- SMARTDOWN_PROTOCOL -->
 @interface ViewController (PLKPlaidLinkViewDelegate) <PLKPlaidLinkViewDelegate>
@@ -49,6 +50,8 @@
     self.buttonContainerView.layer.shadowOffset  = CGSizeMake(0, -1);
     self.buttonContainerView.layer.shadowRadius  = 2;
     self.buttonContainerView.layer.shadowOpacity = 1;
+//    BSCronySettings *cronySettings = [BSCronySettings defaultSettings];
+//    [BSCrony initializeCrony:BSCronyModeUnknown sessionId:nil];
 }
 
 - (void)didReceiveNotification:(NSNotification*)notification {

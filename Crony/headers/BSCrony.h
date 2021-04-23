@@ -18,6 +18,15 @@ typedef NS_ENUM(NSInteger, BSCronyMode) {
     BSCronyModeNormal   // App runs normally
 };
 
+@protocol BSCronyDataDelegate
+
+@required
+
+- (void) sessionPackageCreated:(NSString * _Nonnull)sessionId;
+- (void) sessionPackageDeleted:(NSString * _Nonnull)sessionId;
+
+@end
+
 @interface BSCronySettings : NSObject
 
 @property (atomic, assign) BOOL onStartup;                  // YES
@@ -53,6 +62,6 @@ typedef NS_ENUM(NSInteger, BSCronyMode) {
 + (BOOL)startReplaying:(NSString * _Nullable)sessionId;
 + (void)stopReplaying;
 + (BOOL)isReplaying;
-+ (NSString *)replayingSessionId;
++ (NSString *_Nullable)replayingSessionId;
 
 @end

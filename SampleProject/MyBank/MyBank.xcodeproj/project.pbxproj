@@ -7,15 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2510E64D24EDDA3D007A3302 /* BSCJSInterceptor.js in Resources */ = {isa = PBXBuildFile; fileRef = 2510E64C24EDDA3D007A3302 /* BSCJSInterceptor.js */; };
-		2537993A228899C9008130B4 /* libCrony.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25379936228899C9008130B4 /* libCrony.a */; };
 		25AF5F6921C445F400A87A24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AF5F2E21C42A3F00A87A24 /* ViewController.m */; };
 		25AF5F6A21C445F400A87A24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AF5F3921C42A4000A87A24 /* main.m */; };
 		25AF5F6B21C445F400A87A24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AF5F2B21C42A3F00A87A24 /* AppDelegate.m */; };
 		25AF5F6F21C445F400A87A24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25AF5F3521C42A4000A87A24 /* LaunchScreen.storyboard */; };
 		25AF5F7021C445F400A87A24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AF5F3321C42A4000A87A24 /* Assets.xcassets */; };
 		25AF5F7121C445F400A87A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25AF5F3021C42A3F00A87A24 /* Main.storyboard */; };
-		25AF5F7321C445F400A87A24 /* LinkKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25AF5F3E21C42A7600A87A24 /* LinkKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25C5F0A9263355E10098EFCD /* BSCJSInterceptor.js in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F087263355E10098EFCD /* BSCJSInterceptor.js */; };
+		25C5F0AA263355E10098EFCD /* crony_boom.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F089263355E10098EFCD /* crony_boom.png */; };
+		25C5F0AB263355E10098EFCD /* crony_squiggly.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F08A263355E10098EFCD /* crony_squiggly.png */; };
+		25C5F0AC263355E10098EFCD /* crony_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F08B263355E10098EFCD /* crony_stop.png */; };
+		25C5F0AD263355E10098EFCD /* crony_slack.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F08C263355E10098EFCD /* crony_slack.png */; };
+		25C5F0AE263355E10098EFCD /* crony_share.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F08D263355E10098EFCD /* crony_share.png */; };
+		25C5F0AF263355E10098EFCD /* crony_jira.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F08E263355E10098EFCD /* crony_jira.png */; };
+		25C5F0B0263355E10098EFCD /* crony_crash.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F08F263355E10098EFCD /* crony_crash.png */; };
+		25C5F0B1263355E10098EFCD /* crony_replay.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F090263355E10098EFCD /* crony_replay.png */; };
+		25C5F0B2263355E10098EFCD /* crony_record.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F091263355E10098EFCD /* crony_record.png */; };
+		25C5F0B3263355E10098EFCD /* crony_accessibility.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F092263355E10098EFCD /* crony_accessibility.png */; };
+		25C5F0B4263355E10098EFCD /* crony_stop-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F093263355E10098EFCD /* crony_stop-red.png */; };
+		25C5F0B5263355E10098EFCD /* crony_draw.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F094263355E10098EFCD /* crony_draw.png */; };
+		25C5F0B6263355E10098EFCD /* crony_trash.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F095263355E10098EFCD /* crony_trash.png */; };
+		25C5F0B7263355E10098EFCD /* crony_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F096263355E10098EFCD /* crony_close.png */; };
+		25C5F0B8263355E10098EFCD /* crony_view-more.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F097263355E10098EFCD /* crony_view-more.png */; };
+		25C5F0B9263355E10098EFCD /* crony_check.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F098263355E10098EFCD /* crony_check.png */; };
+		25C5F0BA263355E10098EFCD /* crony_check-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F099263355E10098EFCD /* crony_check-selected.png */; };
+		25C5F0BB263355E10098EFCD /* crony_squiggly-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F09A263355E10098EFCD /* crony_squiggly-selected.png */; };
+		25C5F0BC263355E10098EFCD /* crony_logo-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F09B263355E10098EFCD /* crony_logo-black.png */; };
+		25C5F0BD263355E10098EFCD /* crony_undo.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F09C263355E10098EFCD /* crony_undo.png */; };
+		25C5F0BE263355E10098EFCD /* crony_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F09D263355E10098EFCD /* crony_camera.png */; };
+		25C5F0BF263355E10098EFCD /* crony_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F09E263355E10098EFCD /* crony_logo.png */; };
+		25C5F0C0263355E10098EFCD /* crony_prev.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F09F263355E10098EFCD /* crony_prev.png */; };
+		25C5F0C1263355E10098EFCD /* crony_arrow-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F0A0263355E10098EFCD /* crony_arrow-selected.png */; };
+		25C5F0C2263355E10098EFCD /* crony_check-all.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F0A1263355E10098EFCD /* crony_check-all.png */; };
+		25C5F0C3263355E10098EFCD /* crony_play-video.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F0A2263355E10098EFCD /* crony_play-video.png */; };
+		25C5F0C4263355E10098EFCD /* crony_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F0A3263355E10098EFCD /* crony_arrow.png */; };
+		25C5F0C5263355E10098EFCD /* crony_next.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F0A4263355E10098EFCD /* crony_next.png */; };
+		25C5F0C6263355E10098EFCD /* libCrony.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C5F0A5263355E10098EFCD /* libCrony.a */; };
+		25C5F1982633731E0098EFCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AF5F2E21C42A3F00A87A24 /* ViewController.m */; };
+		25C5F1992633731E0098EFCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AF5F3921C42A4000A87A24 /* main.m */; };
+		25C5F19A2633731E0098EFCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AF5F2B21C42A3F00A87A24 /* AppDelegate.m */; };
+		25C5F19E2633731E0098EFCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25AF5F3521C42A4000A87A24 /* LaunchScreen.storyboard */; };
+		25C5F19F2633731E0098EFCD /* crony_undo.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F09C263355E10098EFCD /* crony_undo.png */; };
+		25C5F1A02633731E0098EFCD /* crony_crash.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F08F263355E10098EFCD /* crony_crash.png */; };
+		25C5F1A12633731E0098EFCD /* crony_prev.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F09F263355E10098EFCD /* crony_prev.png */; };
+		25C5F1A22633731E0098EFCD /* crony_check.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F098263355E10098EFCD /* crony_check.png */; };
+		25C5F1A32633731E0098EFCD /* crony_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F0A3263355E10098EFCD /* crony_arrow.png */; };
+		25C5F1A42633731E0098EFCD /* crony_accessibility.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F092263355E10098EFCD /* crony_accessibility.png */; };
+		25C5F1A52633731E0098EFCD /* crony_jira.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F08E263355E10098EFCD /* crony_jira.png */; };
+		25C5F1A62633731E0098EFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AF5F3321C42A4000A87A24 /* Assets.xcassets */; };
+		25C5F1A72633731E0098EFCD /* crony_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F09D263355E10098EFCD /* crony_camera.png */; };
+		25C5F1A82633731E0098EFCD /* crony_next.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F0A4263355E10098EFCD /* crony_next.png */; };
+		25C5F1A92633731E0098EFCD /* crony_slack.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F08C263355E10098EFCD /* crony_slack.png */; };
+		25C5F1AA2633731E0098EFCD /* crony_arrow-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F0A0263355E10098EFCD /* crony_arrow-selected.png */; };
+		25C5F1AB2633731E0098EFCD /* crony_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F08B263355E10098EFCD /* crony_stop.png */; };
+		25C5F1AC2633731E0098EFCD /* crony_squiggly.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F08A263355E10098EFCD /* crony_squiggly.png */; };
+		25C5F1AD2633731E0098EFCD /* crony_check-all.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F0A1263355E10098EFCD /* crony_check-all.png */; };
+		25C5F1AE2633731E0098EFCD /* crony_squiggly-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F09A263355E10098EFCD /* crony_squiggly-selected.png */; };
+		25C5F1AF2633731E0098EFCD /* BSCJSInterceptor.js in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F087263355E10098EFCD /* BSCJSInterceptor.js */; };
+		25C5F1B02633731E0098EFCD /* crony_view-more.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F097263355E10098EFCD /* crony_view-more.png */; };
+		25C5F1B12633731E0098EFCD /* crony_play-video.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F0A2263355E10098EFCD /* crony_play-video.png */; };
+		25C5F1B22633731E0098EFCD /* crony_draw.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F094263355E10098EFCD /* crony_draw.png */; };
+		25C5F1B32633731E0098EFCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25AF5F3021C42A3F00A87A24 /* Main.storyboard */; };
+		25C5F1B42633731E0098EFCD /* crony_trash.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F095263355E10098EFCD /* crony_trash.png */; };
+		25C5F1B52633731E0098EFCD /* crony_logo-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F09B263355E10098EFCD /* crony_logo-black.png */; };
+		25C5F1B62633731E0098EFCD /* crony_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F096263355E10098EFCD /* crony_close.png */; };
+		25C5F1B72633731E0098EFCD /* crony_stop-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F093263355E10098EFCD /* crony_stop-red.png */; };
+		25C5F1B82633731E0098EFCD /* crony_record.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F091263355E10098EFCD /* crony_record.png */; };
+		25C5F1B92633731E0098EFCD /* crony_share.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F08D263355E10098EFCD /* crony_share.png */; };
+		25C5F1BA2633731E0098EFCD /* crony_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F09E263355E10098EFCD /* crony_logo.png */; };
+		25C5F1BB2633731E0098EFCD /* crony_replay.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F090263355E10098EFCD /* crony_replay.png */; };
+		25C5F1BC2633731E0098EFCD /* crony_check-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F099263355E10098EFCD /* crony_check-selected.png */; };
+		25C5F1BD2633731E0098EFCD /* crony_boom.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C5F089263355E10098EFCD /* crony_boom.png */; };
+		25C5F1C52633733B0098EFCD /* LinkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C5F1C42633733B0098EFCD /* LinkKit.framework */; };
+		25C5F1C6263373650098EFCD /* LinkKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25C5F1C42633733B0098EFCD /* LinkKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25C5F1C7263373D40098EFCD /* libCronySim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C5F0A6263355E10098EFCD /* libCronySim.a */; };
+		25C5F1C9263383E30098EFCD /* LinkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C5F1C8263383E30098EFCD /* LinkKit.framework */; };
+		25C5F1CA263383FC0098EFCD /* LinkKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25C5F1C8263383E30098EFCD /* LinkKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +92,18 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				25AF5F7321C445F400A87A24 /* LinkKit.framework in Embed Frameworks */,
+				25C5F1CA263383FC0098EFCD /* LinkKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C5F1BE2633731E0098EFCD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				25C5F1C6263373650098EFCD /* LinkKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,9 +111,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2510E64C24EDDA3D007A3302 /* BSCJSInterceptor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = BSCJSInterceptor.js; sourceTree = "<group>"; };
-		25379936228899C9008130B4 /* libCrony.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCrony.a; sourceTree = "<group>"; };
-		25379939228899C9008130B4 /* BSCrony.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCrony.h; sourceTree = "<group>"; };
 		25AF5F2A21C42A3F00A87A24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25AF5F2B21C42A3F00A87A24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		25AF5F2D21C42A3F00A87A24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -45,8 +120,42 @@
 		25AF5F3621C42A4000A87A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25AF5F3821C42A4000A87A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25AF5F3921C42A4000A87A24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		25AF5F3E21C42A7600A87A24 /* LinkKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LinkKit.framework; sourceTree = "<group>"; };
 		25AF5F7721C445F400A87A24 /* MyBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C5F087263355E10098EFCD /* BSCJSInterceptor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = BSCJSInterceptor.js; sourceTree = "<group>"; };
+		25C5F089263355E10098EFCD /* crony_boom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_boom.png; sourceTree = "<group>"; };
+		25C5F08A263355E10098EFCD /* crony_squiggly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_squiggly.png; sourceTree = "<group>"; };
+		25C5F08B263355E10098EFCD /* crony_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_stop.png; sourceTree = "<group>"; };
+		25C5F08C263355E10098EFCD /* crony_slack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_slack.png; sourceTree = "<group>"; };
+		25C5F08D263355E10098EFCD /* crony_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_share.png; sourceTree = "<group>"; };
+		25C5F08E263355E10098EFCD /* crony_jira.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_jira.png; sourceTree = "<group>"; };
+		25C5F08F263355E10098EFCD /* crony_crash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_crash.png; sourceTree = "<group>"; };
+		25C5F090263355E10098EFCD /* crony_replay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_replay.png; sourceTree = "<group>"; };
+		25C5F091263355E10098EFCD /* crony_record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_record.png; sourceTree = "<group>"; };
+		25C5F092263355E10098EFCD /* crony_accessibility.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_accessibility.png; sourceTree = "<group>"; };
+		25C5F093263355E10098EFCD /* crony_stop-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crony_stop-red.png"; sourceTree = "<group>"; };
+		25C5F094263355E10098EFCD /* crony_draw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_draw.png; sourceTree = "<group>"; };
+		25C5F095263355E10098EFCD /* crony_trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_trash.png; sourceTree = "<group>"; };
+		25C5F096263355E10098EFCD /* crony_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_close.png; sourceTree = "<group>"; };
+		25C5F097263355E10098EFCD /* crony_view-more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crony_view-more.png"; sourceTree = "<group>"; };
+		25C5F098263355E10098EFCD /* crony_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_check.png; sourceTree = "<group>"; };
+		25C5F099263355E10098EFCD /* crony_check-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crony_check-selected.png"; sourceTree = "<group>"; };
+		25C5F09A263355E10098EFCD /* crony_squiggly-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crony_squiggly-selected.png"; sourceTree = "<group>"; };
+		25C5F09B263355E10098EFCD /* crony_logo-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crony_logo-black.png"; sourceTree = "<group>"; };
+		25C5F09C263355E10098EFCD /* crony_undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_undo.png; sourceTree = "<group>"; };
+		25C5F09D263355E10098EFCD /* crony_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_camera.png; sourceTree = "<group>"; };
+		25C5F09E263355E10098EFCD /* crony_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_logo.png; sourceTree = "<group>"; };
+		25C5F09F263355E10098EFCD /* crony_prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_prev.png; sourceTree = "<group>"; };
+		25C5F0A0263355E10098EFCD /* crony_arrow-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crony_arrow-selected.png"; sourceTree = "<group>"; };
+		25C5F0A1263355E10098EFCD /* crony_check-all.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crony_check-all.png"; sourceTree = "<group>"; };
+		25C5F0A2263355E10098EFCD /* crony_play-video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crony_play-video.png"; sourceTree = "<group>"; };
+		25C5F0A3263355E10098EFCD /* crony_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_arrow.png; sourceTree = "<group>"; };
+		25C5F0A4263355E10098EFCD /* crony_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crony_next.png; sourceTree = "<group>"; };
+		25C5F0A5263355E10098EFCD /* libCrony.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCrony.a; sourceTree = "<group>"; };
+		25C5F0A6263355E10098EFCD /* libCronySim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCronySim.a; sourceTree = "<group>"; };
+		25C5F0A8263355E10098EFCD /* BSCrony.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCrony.h; sourceTree = "<group>"; };
+		25C5F1C22633731E0098EFCD /* MyBankSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBankSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C5F1C42633733B0098EFCD /* LinkKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinkKit.framework; path = LinkKitSim/LinkKit.framework; sourceTree = "<group>"; };
+		25C5F1C8263383E30098EFCD /* LinkKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinkKit.framework; path = LinkKit/LinkKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,22 +163,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2537993A228899C9008130B4 /* libCrony.a in Frameworks */,
+				25C5F0C6263355E10098EFCD /* libCrony.a in Frameworks */,
+				25C5F1C9263383E30098EFCD /* LinkKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C5F19B2633731E0098EFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C5F1C52633733B0098EFCD /* LinkKit.framework in Frameworks */,
+				25C5F1C7263373D40098EFCD /* libCronySim.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2510E64B24EDDA3D007A3302 /* js */ = {
-			isa = PBXGroup;
-			children = (
-				2510E64C24EDDA3D007A3302 /* BSCJSInterceptor.js */,
-			);
-			name = js;
-			path = CronyLib/js;
-			sourceTree = SOURCE_ROOT;
-		};
 		2518B7E621B1AF3B00F0832E = {
 			isa = PBXGroup;
 			children = (
@@ -83,26 +193,9 @@
 			isa = PBXGroup;
 			children = (
 				25AF5F7721C445F400A87A24 /* MyBank.app */,
+				25C5F1C22633731E0098EFCD /* MyBankSim.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		25379935228899C9008130B4 /* CronyLib */ = {
-			isa = PBXGroup;
-			children = (
-				2510E64B24EDDA3D007A3302 /* js */,
-				25379936228899C9008130B4 /* libCrony.a */,
-				25379938228899C9008130B4 /* headers */,
-			);
-			path = CronyLib;
-			sourceTree = SOURCE_ROOT;
-		};
-		25379938228899C9008130B4 /* headers */ = {
-			isa = PBXGroup;
-			children = (
-				25379939228899C9008130B4 /* BSCrony.h */,
-			);
-			path = headers;
 			sourceTree = "<group>";
 		};
 		258E79A621BC37A20074C025 /* Frameworks */ = {
@@ -115,8 +208,9 @@
 		25AF5F2921C42A3F00A87A24 /* MyBank */ = {
 			isa = PBXGroup;
 			children = (
-				25379935228899C9008130B4 /* CronyLib */,
-				25AF5F3E21C42A7600A87A24 /* LinkKit.framework */,
+				25C5F1C42633733B0098EFCD /* LinkKit.framework */,
+				25C5F1C8263383E30098EFCD /* LinkKit.framework */,
+				25C5F085263355E10098EFCD /* CronyLib */,
 				25AF5F2A21C42A3F00A87A24 /* AppDelegate.h */,
 				25AF5F2B21C42A3F00A87A24 /* AppDelegate.m */,
 				25AF5F2D21C42A3F00A87A24 /* ViewController.h */,
@@ -128,6 +222,69 @@
 				25AF5F3921C42A4000A87A24 /* main.m */,
 			);
 			path = MyBank;
+			sourceTree = "<group>";
+		};
+		25C5F085263355E10098EFCD /* CronyLib */ = {
+			isa = PBXGroup;
+			children = (
+				25C5F086263355E10098EFCD /* js */,
+				25C5F088263355E10098EFCD /* resources */,
+				25C5F0A5263355E10098EFCD /* libCrony.a */,
+				25C5F0A6263355E10098EFCD /* libCronySim.a */,
+				25C5F0A7263355E10098EFCD /* headers */,
+			);
+			path = CronyLib;
+			sourceTree = SOURCE_ROOT;
+		};
+		25C5F086263355E10098EFCD /* js */ = {
+			isa = PBXGroup;
+			children = (
+				25C5F087263355E10098EFCD /* BSCJSInterceptor.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		25C5F088263355E10098EFCD /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				25C5F089263355E10098EFCD /* crony_boom.png */,
+				25C5F08A263355E10098EFCD /* crony_squiggly.png */,
+				25C5F08B263355E10098EFCD /* crony_stop.png */,
+				25C5F08C263355E10098EFCD /* crony_slack.png */,
+				25C5F08D263355E10098EFCD /* crony_share.png */,
+				25C5F08E263355E10098EFCD /* crony_jira.png */,
+				25C5F08F263355E10098EFCD /* crony_crash.png */,
+				25C5F090263355E10098EFCD /* crony_replay.png */,
+				25C5F091263355E10098EFCD /* crony_record.png */,
+				25C5F092263355E10098EFCD /* crony_accessibility.png */,
+				25C5F093263355E10098EFCD /* crony_stop-red.png */,
+				25C5F094263355E10098EFCD /* crony_draw.png */,
+				25C5F095263355E10098EFCD /* crony_trash.png */,
+				25C5F096263355E10098EFCD /* crony_close.png */,
+				25C5F097263355E10098EFCD /* crony_view-more.png */,
+				25C5F098263355E10098EFCD /* crony_check.png */,
+				25C5F099263355E10098EFCD /* crony_check-selected.png */,
+				25C5F09A263355E10098EFCD /* crony_squiggly-selected.png */,
+				25C5F09B263355E10098EFCD /* crony_logo-black.png */,
+				25C5F09C263355E10098EFCD /* crony_undo.png */,
+				25C5F09D263355E10098EFCD /* crony_camera.png */,
+				25C5F09E263355E10098EFCD /* crony_logo.png */,
+				25C5F09F263355E10098EFCD /* crony_prev.png */,
+				25C5F0A0263355E10098EFCD /* crony_arrow-selected.png */,
+				25C5F0A1263355E10098EFCD /* crony_check-all.png */,
+				25C5F0A2263355E10098EFCD /* crony_play-video.png */,
+				25C5F0A3263355E10098EFCD /* crony_arrow.png */,
+				25C5F0A4263355E10098EFCD /* crony_next.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		25C5F0A7263355E10098EFCD /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				25C5F0A8263355E10098EFCD /* BSCrony.h */,
+			);
+			path = headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +306,24 @@
 			name = MyBank;
 			productName = MyBank;
 			productReference = 25AF5F7721C445F400A87A24 /* MyBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25C5F1962633731E0098EFCD /* MyBankSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C5F1BF2633731E0098EFCD /* Build configuration list for PBXNativeTarget "MyBankSim" */;
+			buildPhases = (
+				25C5F1972633731E0098EFCD /* Sources */,
+				25C5F19B2633731E0098EFCD /* Frameworks */,
+				25C5F19D2633731E0098EFCD /* Resources */,
+				25C5F1BE2633731E0098EFCD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyBankSim;
+			productName = MyBank;
+			productReference = 25C5F1C22633731E0098EFCD /* MyBankSim.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -174,6 +349,7 @@
 			projectRoot = "";
 			targets = (
 				25AF5F6721C445F400A87A24 /* MyBank */,
+				25C5F1962633731E0098EFCD /* MyBankSim */,
 			);
 		};
 /* End PBXProject section */
@@ -184,9 +360,76 @@
 			buildActionMask = 2147483647;
 			files = (
 				25AF5F6F21C445F400A87A24 /* LaunchScreen.storyboard in Resources */,
+				25C5F0BD263355E10098EFCD /* crony_undo.png in Resources */,
+				25C5F0B0263355E10098EFCD /* crony_crash.png in Resources */,
+				25C5F0C0263355E10098EFCD /* crony_prev.png in Resources */,
+				25C5F0B9263355E10098EFCD /* crony_check.png in Resources */,
+				25C5F0C4263355E10098EFCD /* crony_arrow.png in Resources */,
+				25C5F0B3263355E10098EFCD /* crony_accessibility.png in Resources */,
+				25C5F0AF263355E10098EFCD /* crony_jira.png in Resources */,
 				25AF5F7021C445F400A87A24 /* Assets.xcassets in Resources */,
-				2510E64D24EDDA3D007A3302 /* BSCJSInterceptor.js in Resources */,
+				25C5F0BE263355E10098EFCD /* crony_camera.png in Resources */,
+				25C5F0C5263355E10098EFCD /* crony_next.png in Resources */,
+				25C5F0AD263355E10098EFCD /* crony_slack.png in Resources */,
+				25C5F0C1263355E10098EFCD /* crony_arrow-selected.png in Resources */,
+				25C5F0AC263355E10098EFCD /* crony_stop.png in Resources */,
+				25C5F0AB263355E10098EFCD /* crony_squiggly.png in Resources */,
+				25C5F0C2263355E10098EFCD /* crony_check-all.png in Resources */,
+				25C5F0BB263355E10098EFCD /* crony_squiggly-selected.png in Resources */,
+				25C5F0A9263355E10098EFCD /* BSCJSInterceptor.js in Resources */,
+				25C5F0B8263355E10098EFCD /* crony_view-more.png in Resources */,
+				25C5F0C3263355E10098EFCD /* crony_play-video.png in Resources */,
+				25C5F0B5263355E10098EFCD /* crony_draw.png in Resources */,
 				25AF5F7121C445F400A87A24 /* Main.storyboard in Resources */,
+				25C5F0B6263355E10098EFCD /* crony_trash.png in Resources */,
+				25C5F0BC263355E10098EFCD /* crony_logo-black.png in Resources */,
+				25C5F0B7263355E10098EFCD /* crony_close.png in Resources */,
+				25C5F0B4263355E10098EFCD /* crony_stop-red.png in Resources */,
+				25C5F0B2263355E10098EFCD /* crony_record.png in Resources */,
+				25C5F0AE263355E10098EFCD /* crony_share.png in Resources */,
+				25C5F0BF263355E10098EFCD /* crony_logo.png in Resources */,
+				25C5F0B1263355E10098EFCD /* crony_replay.png in Resources */,
+				25C5F0BA263355E10098EFCD /* crony_check-selected.png in Resources */,
+				25C5F0AA263355E10098EFCD /* crony_boom.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C5F19D2633731E0098EFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C5F19E2633731E0098EFCD /* LaunchScreen.storyboard in Resources */,
+				25C5F19F2633731E0098EFCD /* crony_undo.png in Resources */,
+				25C5F1A02633731E0098EFCD /* crony_crash.png in Resources */,
+				25C5F1A12633731E0098EFCD /* crony_prev.png in Resources */,
+				25C5F1A22633731E0098EFCD /* crony_check.png in Resources */,
+				25C5F1A32633731E0098EFCD /* crony_arrow.png in Resources */,
+				25C5F1A42633731E0098EFCD /* crony_accessibility.png in Resources */,
+				25C5F1A52633731E0098EFCD /* crony_jira.png in Resources */,
+				25C5F1A62633731E0098EFCD /* Assets.xcassets in Resources */,
+				25C5F1A72633731E0098EFCD /* crony_camera.png in Resources */,
+				25C5F1A82633731E0098EFCD /* crony_next.png in Resources */,
+				25C5F1A92633731E0098EFCD /* crony_slack.png in Resources */,
+				25C5F1AA2633731E0098EFCD /* crony_arrow-selected.png in Resources */,
+				25C5F1AB2633731E0098EFCD /* crony_stop.png in Resources */,
+				25C5F1AC2633731E0098EFCD /* crony_squiggly.png in Resources */,
+				25C5F1AD2633731E0098EFCD /* crony_check-all.png in Resources */,
+				25C5F1AE2633731E0098EFCD /* crony_squiggly-selected.png in Resources */,
+				25C5F1AF2633731E0098EFCD /* BSCJSInterceptor.js in Resources */,
+				25C5F1B02633731E0098EFCD /* crony_view-more.png in Resources */,
+				25C5F1B12633731E0098EFCD /* crony_play-video.png in Resources */,
+				25C5F1B22633731E0098EFCD /* crony_draw.png in Resources */,
+				25C5F1B32633731E0098EFCD /* Main.storyboard in Resources */,
+				25C5F1B42633731E0098EFCD /* crony_trash.png in Resources */,
+				25C5F1B52633731E0098EFCD /* crony_logo-black.png in Resources */,
+				25C5F1B62633731E0098EFCD /* crony_close.png in Resources */,
+				25C5F1B72633731E0098EFCD /* crony_stop-red.png in Resources */,
+				25C5F1B82633731E0098EFCD /* crony_record.png in Resources */,
+				25C5F1B92633731E0098EFCD /* crony_share.png in Resources */,
+				25C5F1BA2633731E0098EFCD /* crony_logo.png in Resources */,
+				25C5F1BB2633731E0098EFCD /* crony_replay.png in Resources */,
+				25C5F1BC2633731E0098EFCD /* crony_check-selected.png in Resources */,
+				25C5F1BD2633731E0098EFCD /* crony_boom.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +443,16 @@
 				25AF5F6921C445F400A87A24 /* ViewController.m in Sources */,
 				25AF5F6A21C445F400A87A24 /* main.m in Sources */,
 				25AF5F6B21C445F400A87A24 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C5F1972633731E0098EFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C5F1982633731E0098EFCD /* ViewController.m in Sources */,
+				25C5F1992633731E0098EFCD /* main.m in Sources */,
+				25C5F19A2633731E0098EFCD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +594,73 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyBank",
+					"$(PROJECT_DIR)/MyBank/LinkKit",
+				);
+				INFOPLIST_FILE = MyBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/MyBank/Crony",
+					"$(PROJECT_DIR)/CronyLib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytesized.MyBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25AF5F7621C445F400A87A24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyBank",
+					"$(PROJECT_DIR)/MyBank/LinkKit",
+				);
+				INFOPLIST_FILE = MyBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/MyBank/Crony",
+					"$(PROJECT_DIR)/CronyLib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytesized.MyBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25C5F1C02633731E0098EFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
 				DEVELOPMENT_TEAM = U96363L4E2;
@@ -348,6 +668,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MyBank",
+					"$(PROJECT_DIR)/MyBank/LinkKitSim",
 				);
 				INFOPLIST_FILE = MyBank/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
@@ -367,7 +688,7 @@
 			};
 			name = Debug;
 		};
-		25AF5F7621C445F400A87A24 /* Release */ = {
+		25C5F1C12633731E0098EFCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -379,6 +700,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MyBank",
+					"$(PROJECT_DIR)/MyBank/LinkKitSim",
 				);
 				INFOPLIST_FILE = MyBank/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
@@ -416,6 +738,15 @@
 			buildConfigurations = (
 				25AF5F7521C445F400A87A24 /* Debug */,
 				25AF5F7621C445F400A87A24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25C5F1BF2633731E0098EFCD /* Build configuration list for PBXNativeTarget "MyBankSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C5F1C02633731E0098EFCD /* Debug */,
+				25C5F1C12633731E0098EFCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

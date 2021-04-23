@@ -13,10 +13,7 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    BSCronySettings *cronySettings = [BSCronySettings defaultSettings];
-//    cronySettings.jiraAuthToken = @"...";
-//    cronySettings.jiraHost = @"...";
-    [BSCrony initializeCrony:cronySettings];
+    [BSCrony initializeCrony:BSCronyModeUnknown sessionId:nil];
     #if USE_CUSTOM_CONFIG
         [self setupPlaidLinkWithCustomConfiguration];
     #else
