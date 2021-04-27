@@ -12,10 +12,10 @@
 extern NSString * _Nonnull const CRONY_VERSION;
 
 typedef NS_ENUM(NSInteger, BSCronyMode) {
-    BSCronyModeUnknown, // Display a dialog with Record, Replay, and Normal options
+    BSCronyModePrompt,  // Display a dialog with Record, Replay, and Cancel options
     BSCronyModeRecord,  // Crony records a session
     BSCronyModeReplay,  // Crony replays a previously recorded session
-    BSCronyModeNormal   // App runs normally
+    BSCronyModeCancel   // App runs normally
 };
 
 @protocol BSCronyDataDelegate

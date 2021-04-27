@@ -13,7 +13,7 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [BSCrony initializeCrony:BSCronyModeUnknown sessionId:nil];
+    [BSCrony initializeCrony:BSCronyModePrompt sessionId:nil];
     #if USE_CUSTOM_CONFIG
         [self setupPlaidLinkWithCustomConfiguration];
     #else
