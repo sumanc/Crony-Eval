@@ -64,4 +64,8 @@ typedef NS_ENUM(NSInteger, BSCronyMode) {
 + (BOOL)isReplaying;
 + (NSString *_Nullable)replayingSessionId;
 
++ (void)showA11YDetails;
++ (void)hideA11YDetails;
++ (NSDictionary *_Nonnull)a11yDetails:(BOOL)withScreenshot;
+
 @end
