@@ -1,4 +1,5 @@
-# Crony
+<img width="116" alt="crony-logo2" src="https://user-images.githubusercontent.com/470461/162631903-aff745b0-e9aa-4d57-8a27-7b778bc6653d.png">
+   
 #### Record. Review. Report. Resolve.
 
 # What is Crony?
