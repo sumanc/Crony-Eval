@@ -62,7 +62,7 @@ Crony is a pal for mobile app testers and developers. Crony brings them closer t
 4. Select the targets and click Finish
 5. Go to BUild Settings and add -ObjC as additional linker flag
 6. Open your AppDelehgate.m file include BSCrony.h
-7. in didFinishLaunchingWithOptions, add the following line;
-   1. [BSCrony initializeCrony:nil];
+7. [OPTIONAL] In didFinishLaunchingWithOptions, add the following line;
+   ```[BSCrony initializeCrony:nil];```
 8. Compile and run the app
 
