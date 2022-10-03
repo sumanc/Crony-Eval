@@ -12,11 +12,13 @@
 extern NSString * _Nonnull const CRONY_VERSION;
 
 typedef NS_ENUM(NSInteger, BSCronyMode) {
+    BSCronyModeNone,    // App runs normally
     BSCronyModePrompt,  // Display a dialog with Record, Replay, and Cancel options
     BSCronyModeRecord,  // Crony records a session
-    BSCronyModeReplay,  // Crony replays a previously recorded session
-    BSCronyModeCancel   // App runs normally
+    BSCronyModeReplay   // Crony replays a previously recorded session
 };
+
+typedef NS_ENUM(NSInteger, BSCScreenRecordingStatus);
 
 @protocol BSCronyDataDelegate
 
@@ -39,11 +41,25 @@ typedef NS_ENUM(NSInteger, BSCronyMode) {
 @property (atomic, assign) CGFloat networkCallThreshold;    // 2 secs
 @property (atomic, assign) CGFloat aiThreshold;             // 1 sec
 @property (atomic, assign) CGFloat viewLoadThreshold;       // 0.5 sec
+
+@property (atomic, assign) BOOL integrationsOnly;   // Setting this to YES hides all the Crony functionality except
+                                                    // the draw controleer with Slack and Jira integratiuons
 @property (atomic, retain) NSString * _Nullable slackAuthToken;        // Use your Slack auth token to integrate Crony with your Slack channels
+@property (atomic, retain) NSString * _Nullable slackChannel;
+@property (atomic, retain) NSString * _Nullable slackReporter;
+
 @property (atomic, retain) NSString * _Nullable jiraAuthToken;         // Use your Jira auth token to automatically create Jira tickets
 @property (atomic, retain) NSString * _Nullable jiraHost;              // Your Jira host URL. For ex: https://crony-us.atlassian.net
+@property (atomic, retain) NSString * _Nullable jiraProjectKey;
+@property (atomic, retain) NSString * _Nullable jiraAssignee;
+@property (atomic, retain) NSString * _Nullable jiraReporter;
+@property (atomic, retain) NSArray<NSString *> * _Nullable jiraLabels;
 
 + (BSCronySettings *_Nonnull)defaultSettings;
+- (void)addSurveyQuestion:(NSString *_Nonnull)question;
+- (void)addSurveyQuestion:(NSString *_Nonnull)question with:(NSArray<NSString *> * _Nonnull)choices;
+- (void)clearSurvey;
+- (void)takeSurvey;
 
 @end
 
@@ -52,11 +68,12 @@ typedef NS_ENUM(NSInteger, BSCronyMode) {
 + (BSCronySettings *_Nullable)currentSettings;
 + (void)setSettings:(BSCronySettings * _Nullable)cronySettings;
 
-+ (void)initializeCrony:(BSCronyMode)cronyMode sessionId:(NSString * _Nullable)sessionId;
++ (void)initializeCrony:(BSCronyMode)cronyMode;
++ (void)initializeCrony:(BSCronyMode)cronyMode settings:(BSCronySettings * _Nullable)settings;
 + (BSCronyMode)cronyMode;
 
-+ (BOOL)startRecording;
-+ (void)stopRecording;
++ (BOOL)startRecording:(void (^_Nullable)(BSCScreenRecordingStatus status))completionHandler;
++ (void)stopRecording:(void (^_Nullable)(BOOL succeeded, NSURL * _Nullable recordingUrl))completionHandler;
 + (BOOL)isRecording;
 
 + (BOOL)startReplaying:(NSString * _Nullable)sessionId;

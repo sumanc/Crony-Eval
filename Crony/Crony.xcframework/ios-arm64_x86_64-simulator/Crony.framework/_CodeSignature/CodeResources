@@ -4,36 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/BSCrony.h</key>
-		<data>
-		zVve+mtOf5Skhc0duU1+kX6z8QI=
-		</data>
-		<key>Headers/CronyFramework.h</key>
-		<data>
-		NXeHV2Nyupc0R4z1B3WcB+4WAjI=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		3KqY6bxPTYVRZNhKwqzcqQfvhBM=
+		AIHQ3RG7TygB+tBbH8c8LFpT1Ko=
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict>
-		<key>Headers/BSCrony.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WSlNjojvLTyS1/NUb2NpGdE4kYGS3y1Jxidy1eiLwmk=
-			</data>
-		</dict>
-		<key>Headers/CronyFramework.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UHpaBGCkogdUvO2j6hlSk0rdZaMG6i6+xh4SXABvH+M=
-			</data>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>
