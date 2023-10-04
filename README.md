@@ -5,7 +5,8 @@
 # What is Crony?
 Crony is a pal for mobile app testers and developers. Crony brings them closer together to capture and share information in real-time. Please checkout our website https://crony.us for more information.
 
-<img src="https://user-images.githubusercontent.com/470461/162629564-e2a6d777-a007-44d2-a39c-d790349009f1.png" width="25%" height="25%">
+<img src="https://github.com/sumanc/Crony-Eval/assets/470461/038b0778-7877-44d4-ab2c-4c5b375b1c37.png" width="25%" height="25%">
+<img src="https://github.com/sumanc/Crony-Eval/assets/470461/530a8585-ba9b-4f7d-a965-572de223ee9f.png" width="25%" height="25%">
 
 # Record
 1. Crony records user experience, process execution, screen recording, and A LOT OF contextual data like:
