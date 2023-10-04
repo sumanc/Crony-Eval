@@ -8,7 +8,7 @@ Crony is a pal for mobile app testers and developers. Crony brings them closer t
 
 # Record
 1. Crony records user experience, process execution, screen recording, and A LOT OF contextual data like:
-   1. logs
+   1. Logs
    2. Views
    3. Network Calls
    4. Spinners
