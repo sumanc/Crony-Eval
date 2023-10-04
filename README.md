@@ -1,6 +1,6 @@
-<img width="116" alt="crony-logo2" src="https://user-images.githubusercontent.com/470461/162631903-aff745b0-e9aa-4d57-8a27-7b778bc6653d.png">
+<img width="186" alt="crony-logo" src="https://github.com/sumanc/Crony-Eval/assets/470461/1b944ed8-c4f8-44f1-9c00-6e711e82275b">
    
-#### Record. Review. Report. Resolve.
+#### Record. Report. Resolve.
 
 # What is Crony?
 Crony is a pal for mobile app testers and developers. Crony brings them closer together to capture and share information in real-time. Please checkout our website https://crony.us for more information.
