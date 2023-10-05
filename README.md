@@ -29,7 +29,11 @@ Crony is a pal for mobile app testers and developers. Crony brings them closer t
 3. Understand The App Behavior, Resources Consumption, And Performance
 4. Shift To The Left In Finding And Resolving The Bugs
 
-<img src="https://user-images.githubusercontent.com/470461/162628937-a555f945-b3b2-4584-be5c-c950b3e39c62.png" width="20%" height="20%"> <img src="https://user-images.githubusercontent.com/470461/162628999-9d00adcb-4ad9-4383-b7ff-1bc7d0729b10.png" width="20%" height="20%"> <img src="https://user-images.githubusercontent.com/470461/162629078-49a8157c-f7ec-4a77-a202-aa261f0b2fee.png" width="20%" height="20%"> <img src="https://user-images.githubusercontent.com/470461/162629324-114fc15a-018f-406b-8d2f-29177d1c04c2.png" width="20%" height="20%">
+<img src="https://github.com/sumanc/Crony-Eval/assets/470461/76f77cc0-e7f9-4070-bf42-a34724661abe" width="17%" height="17%">
+<img src="https://github.com/sumanc/Crony-Eval/assets/470461/6d1edf58-21ab-4586-beff-9307760fde92" width="17%" height="17%">
+<img src="https://github.com/sumanc/Crony-Eval/assets/470461/09ec0917-1173-496c-a5bd-40b7ca6d9647" width="17%" height="17%">
+<img src="https://github.com/sumanc/Crony-Eval/assets/470461/9aaa6270-3723-45c5-9875-02693752bac0" width="17%" height="17%">
+<img src="https://github.com/sumanc/Crony-Eval/assets/470461/5dfa85fc-c175-4983-bb76-9086261b76bb" width="17%" height="17%">
 
 # Replay
 1. Crony Allows To Replay Any Recording
