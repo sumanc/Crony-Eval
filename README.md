@@ -7,6 +7,7 @@ Crony is a pal for mobile app testers and developers. Crony brings them closer t
 
 
 <img src="https://github.com/sumanc/Crony-Eval/assets/470461/666370a2-6b95-4791-83da-8e5aa31ac7e1.png" width="20%" height="20%">
+<img src="https://github.com/sumanc/Crony-Eval/assets/470461/1c962b38-0d48-4052-9e87-32de668c9377.png" width="20%" height="20%">
 
 
 # Record
