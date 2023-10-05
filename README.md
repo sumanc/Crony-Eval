@@ -22,6 +22,8 @@ Crony is a pal for mobile app testers and developers. Crony brings them closer t
 2. Crony allows testers to annotate and add voice memos as well
 3. No Performance Impact
 4. No Change In The User Experience
+   
+<img src="https://github.com/sumanc/Crony-Eval/assets/470461/791255d4-d8d7-4df1-ab4b-4d15861d83f4" width="20%" height="20%">
 
 # Review
 1. Crony Brings Observability To The Device. NO NEED TO LOGIN TO A PORTAL
@@ -29,31 +31,33 @@ Crony is a pal for mobile app testers and developers. Crony brings them closer t
 3. Understand The App Behavior, Resources Consumption, And Performance
 4. Shift To The Left In Finding And Resolving The Bugs
 
-<img src="https://github.com/sumanc/Crony-Eval/assets/470461/76f77cc0-e7f9-4070-bf42-a34724661abe" width="17%" height="17%">
-<img src="https://github.com/sumanc/Crony-Eval/assets/470461/6d1edf58-21ab-4586-beff-9307760fde92" width="17%" height="17%">
-<img src="https://github.com/sumanc/Crony-Eval/assets/470461/09ec0917-1173-496c-a5bd-40b7ca6d9647" width="17%" height="17%">
-<img src="https://github.com/sumanc/Crony-Eval/assets/470461/9aaa6270-3723-45c5-9875-02693752bac0" width="17%" height="17%">
-<img src="https://github.com/sumanc/Crony-Eval/assets/470461/5dfa85fc-c175-4983-bb76-9086261b76bb" width="17%" height="17%">
+<img src="https://github.com/sumanc/Crony-Eval/assets/470461/76f77cc0-e7f9-4070-bf42-a34724661abe" width="20%" height="20%">
+<img src="https://github.com/sumanc/Crony-Eval/assets/470461/6d1edf58-21ab-4586-beff-9307760fde92" width="20%" height="20%">
+<img src="https://github.com/sumanc/Crony-Eval/assets/470461/9aaa6270-3723-45c5-9875-02693752bac0" width="20%" height="20%">
+<img src="https://github.com/sumanc/Crony-Eval/assets/470461/5dfa85fc-c175-4983-bb76-9086261b76bb" width="20%" height="20%">
 
-# Replay
-1. Crony Allows To Replay Any Recording
-2. Replay Is At The Process Level [NOT JUST VIDEO]
-3. App Executes By Itself The Same Way It Was Recorded. NO EXTERNAL DRIVERS LIKE APPIUM Are Needed
-4. All The User Gestures And Interactions Are Simulated By Crony
-5. Always Reproduce The Bugs And Crashes Captured On Record
-6. Attach The Debugger And Step Through The Code On Replay To Determine The Cause Of The Issue
-<img src="https://user-images.githubusercontent.com/470461/162629260-4fc81534-3fcc-4934-b59a-9e3e4e1769c3.png" width="25%" height="25%">
+# Workflows
+1. Crony Allows To create Workflows to test automation
+2. No scripting or coding is required to create workflows
+3. Workflow execution Is At The Process Level [NOT JUST VIDEO]
+4. App Executes By Itself The Same Way It Was Recorded. NO EXTERNAL DRIVERS LIKE APPIUM Are Needed
+5. All The User Gestures And Interactions Are Simulated By Crony
+   
+<img src="https://github.com/sumanc/Crony-Eval/assets/470461/eabc75ee-33e1-432f-b51b-4d01f393ba74" width="20%" height="20%">
+
 
 # Accessibility Auditor
 1. Crony Detects Accessibility Violations And Shows Them Live On The Screen
 2. When A Violation Badge Is Tapped, The Details Are Displayed
 3. Allows To Share The Accessibility Violations Per Screen Or For All The Screens
-<img src="https://user-images.githubusercontent.com/470461/162628673-219571cb-0a67-47bd-9175-01f46c4729a8.png" width="25%" height="25%">
+   
+<img src="https://github.com/sumanc/Crony-Eval/assets/470461/09ec0917-1173-496c-a5bd-40b7ca6d9647" width="20%" height="20%">
 
 # Report
 1. Share the recordings right from the device using the apps like messenger, slack etc.
 2. Send them to content management systems (sharepoint), bugtracking systems (Jira etc.) from the device
-<img src="https://user-images.githubusercontent.com/470461/162629169-cb8c5b61-df57-423c-951c-fbb5a5861236.png" width="25%" height="25%">
+   
+<img src="https://github.com/sumanc/Crony-Eval/assets/470461/51afca91-e1b1-4100-a0ed-9eea730dd7b3" width="20%" height="20%">
 
 # Resolve
 1. Find And Fix The Bugs During The Design And Development Phase
