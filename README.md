@@ -3,7 +3,7 @@
 #### Record. Report. Resolve.
 
 # What is Crony?
-Crony is a pal for mobile app testers and developers. Crony brings them closer together to capture and share information in real-time. Please checkout our website https://crony.us for more information.
+Crony is a pal for mobile app testers and developers. Crony brings them closer together to capture and share information in real-time. Checkout our website https://crony.us for more information.
 
 
 <img src="https://github.com/sumanc/Crony-Eval/assets/470461/666370a2-6b95-4791-83da-8e5aa31ac7e1.png" width="20%" height="20%">
